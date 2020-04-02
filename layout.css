@@ -1,0 +1,35 @@
+#top{height: 50px;
+	background-color: blue;
+	margin-bottom:10px; }
+
+
+#middle
+	{
+		background-color:#f9370e; 
+		height: 150px;
+		 margin-bottom: 10px
+	 }
+
+
+
+.flex-container{
+				/*flex-wrap: wrap;*/
+				/*width: 100%;*/
+				/*display:flex;*/
+				justify-content: center;
+				display: flex;
+				/*flex-wrap: wrap;*/
+				justify-content: space-between;
+				}
+
+.flex-container div {
+	height: 200px;
+	width: 30%;
+	background-color: pink;
+	margin: 20px;
+	/*border-style: solid 1.3px black;*/
+	/*margin: 0% 2%*/
+}
+
+#bottom{background-color: green;
+		height: 200px;}
